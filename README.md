@@ -1,6 +1,12 @@
 # mcs-manager
 Web App for MCS management
 
+
+# Rooms Viewer #
+
+![alt text](images/tests.PNG "Rooms viewer")
+
+
 #### Database configuration in config.php ####
 
 ```php
@@ -27,6 +33,4 @@ try{
 ```
 
 
-# Rooms Viewer #
 
-![alt text](images/tests.PNG "Rooms viewer")
