@@ -7,7 +7,7 @@ Web App for MCS management
 ![alt text](images/tests.PNG "Rooms viewer")
 
 
-#### Database configuration in config.php ####
+### Database configuration in config.php ###
 
 ```php
 /* Database credentials */
