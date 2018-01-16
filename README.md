@@ -10,13 +10,14 @@ Control Panel for MCS management allowing to create and manipulate videoconferen
 
 ```diff
 
+/*Database credentials*/
 + $host = 'DB_HOST';
 + $dbname = 'DB_NAME';
 + $dbuser = 'DB_USER';
 + $dbpass = 'DB_PASSWORD';
 ```
 ```php
-/* After configure Database credentials */
+/* After configure credentials */
 try{
     /* Attempt to connect to MySQL database */
     //$pdo = new PDO("mysql:host=" . DB_SERVER . ";dbname=" . DB_NAME, DB_USERNAME, DB_PASSWORD);
