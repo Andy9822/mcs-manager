@@ -2,4 +2,4 @@
 Web App for MCS management
 
 
-![alt text](images/dash_720.png "Rooms visualizer")
+![alt text](images/dash_720.png "Rooms viewer")
