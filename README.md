@@ -4,7 +4,6 @@ Web App for MCS management
 #### Database configuration in config.php ####
 
 ```php
-<?php
 /* Database credentials */
 
 $host = 'DB_HOST';
@@ -25,8 +24,9 @@ try{
 } catch(PDOException $e){
     die("ERROR: Could not connect. " . $e->getMessage());
 }
-?>
 ```
 
+
+#### Rooms Viewer ####
 
 ![alt text](images/tests.PNG "Rooms viewer")
