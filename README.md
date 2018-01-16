@@ -1,5 +1,5 @@
 # mcs-manager
-Control Panel for MCS management allowing create and manipulate videoconference rooms
+Control Panel for MCS management allowing to create and manipulate videoconference rooms
 
 ## Rooms Viewer ##
 
