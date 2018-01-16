@@ -1,7 +1,7 @@
 # mcs-manager
 Web App for MCS management
 
-# Rooms Viewer #
+## Rooms Viewer ##
 
 ![alt text](images/dash.PNG "Rooms viewer")
 
