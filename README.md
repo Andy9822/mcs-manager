@@ -4,7 +4,7 @@ Web App for MCS management
 
 # Rooms Viewer #
 
-![alt text](images/tests.PNG "Rooms viewer")
+![alt text](images/dash.PNG "Rooms viewer")
 
 
 ### Database configuration in config.php ###
