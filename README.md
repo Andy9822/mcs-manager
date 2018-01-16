@@ -10,7 +10,7 @@ Control Panel for MCS management allowing to create and manipulate videoconferen
 
 ```diff
 
-/*Database credentials*/
+/* Database credentials */
 + $host = 'DB_HOST';
 + $dbname = 'DB_NAME';
 + $dbuser = 'DB_USER';
