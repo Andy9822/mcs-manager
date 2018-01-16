@@ -110,7 +110,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
                     <form action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>" method="post">
                         <div class="form-group <?php echo (!empty($id_err)) ? 'has-error' : ''; ?>">
                             <label>ID</label>
-                            <input type="text" name="id" class="form-control" maxlength="6" onkeypress='return event.charCode >= 48 && event.charCode <= 57' value="<?php echo $id; ?>">
+                            <input type="text" name="id" class="form-control" maxlength="6" onkeypress='return (event.charCode >= 48 && event.charCode <= 57 || event.key == "Backspace")' value="<?php echo $id; ?>">
                             <span class="help-block"><?php echo $id_err;?></span>
                         </div>
                         <div class="form-group ">
