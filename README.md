@@ -1,5 +1,5 @@
 # mcs-manager
-Web App for MCS management
+Control Panel for MCS management allowing create and manipulate videoconference rooms
 
 ## Rooms Viewer ##
 
