@@ -8,7 +8,7 @@ $dbpass = '04034e094b1149eb19210717ed852b4174ba4404b98d37056a9bd1934913976b';
 
 try{
     /* Attempt to connect to MySQL database */
-    $pdo = new PDO( 'mysql:host=' . $host . ';dbname=' . $dbname, $dbuser, $dbpass );
+    //$pdo = new PDO( 'mysql:host=' . $host . ';dbname=' . $dbname, $dbuser, $dbpass );
 
     /* Attempt to connect to PostgreSQL database */
     $pdo = new PDO("pgsql:dbname=$dbname;host=$host", $dbuser, $dbpass) or die("error") ;
