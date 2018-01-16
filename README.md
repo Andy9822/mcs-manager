@@ -8,7 +8,7 @@ Control Panel for MCS management allowing to create and manipulate videoconferen
 
 ### Database configuration in config.php ###
 
-```php
+```diff
 /* Database credentials */
 
 + $host = 'DB_HOST';
