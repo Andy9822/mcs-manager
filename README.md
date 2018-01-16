@@ -22,7 +22,7 @@ By default you have MySQL and PostgreSQL PDO connection example. If needed, add 
 /* After configure credentials */
 try{
     /* Attempt to connect to MySQL database */
-    //$pdo = new PDO("mysql:host=" . DB_SERVER . ";dbname=" . DB_NAME, DB_USERNAME, DB_PASSWORD);
+    //$pdo = new PDO("mysql:host=" .  $host  . ";dbname=" . $dbname, $dbuser, $dbpass);
 
     /* Attempt to connect to PostgreSQL database */
     $pdo = new PDO("pgsql:dbname=$dbname;host=$host", $dbuser, $dbpass) or die("error") ;
