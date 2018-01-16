@@ -17,7 +17,7 @@ Set your database credentials in the `config.php`
 + $dbuser = 'DB_USER';
 + $dbpass = 'DB_PASSWORD';
 ```
-Edit wich DB you are gonna use and connect to.By default you have MySQL and PostgreSQL PDO connection example. If needed, add your own database PDO connection settings.
+Choose wich DB you are gonna use and connect to. By default you have MySQL and PostgreSQL PDO connection example. If needed, add your own database PDO connection settings.
 ```php
 /* After configure credentials */
 try{
