@@ -15,6 +15,7 @@ Control Panel for MCS management allowing to create and manipulate videoconferen
 + $dbname = 'DB_NAME';
 + $dbuser = 'DB_USER';
 + $dbpass = 'DB_PASSWORD';
+```
 ```php
 try{
     /* Attempt to connect to MySQL database */
@@ -29,7 +30,6 @@ try{
 } catch(PDOException $e){
     die("ERROR: Could not connect. " . $e->getMessage());
 }
-```
 ```
 
 
