@@ -1,11 +1,6 @@
 # mcs-manager
 Control Panel for MCS management allowing to create and manipulate videoconference rooms.
 
-## Rooms Viewer ##
-
-![alt text](images/dash.PNG "Rooms viewer")
-
-
 ## Config ##
 
 ### Database configuration ###
@@ -34,6 +29,11 @@ try{
     die("ERROR: Could not connect. " . $e->getMessage());
 }
 ```
+
+
+## Rooms Viewer ##
+
+![alt text](images/dash.PNG "Rooms viewer")
 
 
 
