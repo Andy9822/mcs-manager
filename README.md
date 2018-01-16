@@ -11,10 +11,10 @@ Control Panel for MCS management allowing to create and manipulate videoconferen
 ```php
 /* Database credentials */
 
-$host = 'DB_HOST';
-$dbname = 'DB_NAME';
-$dbuser = 'DB_USER';
-$dbpass = 'DB_PASSWORD';
++ $host = 'DB_HOST';
++ $dbname = 'DB_NAME';
++ $dbuser = 'DB_USER';
++ $dbpass = 'DB_PASSWORD';
 
 try{
     /* Attempt to connect to MySQL database */
