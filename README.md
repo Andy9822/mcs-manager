@@ -27,6 +27,6 @@ try{
 ```
 
 
-### Rooms Viewer ###
+# Rooms Viewer #
 
 ![alt text](images/tests.PNG "Rooms viewer")
