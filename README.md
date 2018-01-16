@@ -6,6 +6,8 @@ Control Panel for MCS management allowing to create and manipulate videoconferen
 ![alt text](images/dash.PNG "Rooms viewer")
 
 
+## Config ##
+
 ### Database configuration ###
 Set your database credentials in the `config.php`
 ```diff
